@@ -1,5 +1,6 @@
 {
   "name": "ignews",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,13 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.21.1",
+    "axios": "^0.24.0",
+    "faunadb": "^4.4.1",
     "next": "12.0.4",
+    "next-auth": "^3.29.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
-    "sass": "^1.43.5"
+    "sass": "^1.43.5",
+    "stripe": "^8.191.0"
   },
   "devDependencies": {
+    "@types/next-auth": "^3.15.0",
     "@types/node": "^16.11.10",
     "@types/react": "^17.0.37",
     "eslint": "7.32.0",
