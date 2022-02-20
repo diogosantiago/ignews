@@ -42,6 +42,7 @@ export default async function Webhooks(req: NextApiRequest, res: NextApiResponse
 
         const {type} = event
 
+
         if(relevantEvents.has(type)){
             try{
                 switch(type){
